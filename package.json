@@ -1,0 +1,26 @@
+{
+  "name": "playwright_cucumber_bdd_implementation",
+  "version": "1.0.0",
+  "description": "Implement BDD Cucumber with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -p test_runner --tags  @demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuthm/playwright-cucumber-typescript.git"
+  },
+  "author": "Nhut Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhuthm/playwright-cucumber-typescript/issues"
+  },
+  "homepage": "https://github.com/nhuthm/playwright-cucumber-typescript#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "@playwright/test": "^1.26.0",
+    "playwright": "^1.26.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
